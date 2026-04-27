@@ -233,7 +233,7 @@ function Home() {
                 <div className="grid gap-6 lg:grid-cols-3">
                     {testimonials.map((testimonial) => (
                         <div key={testimonial.name} className="rounded-[2rem] border border-gray-300 bg-white/90 p-8 shadow-xl shadow-gray-300/40 transition hover:-translate-y-2">
-                            <p className="text-gray-700 leading-8">"{{testimonial.quote}}"</p>
+                            <p className="text-gray-700 leading-8">"{testimonial.quote}"</p>
                             <div className="mt-6 text-sm text-gray-600">
                                 <p className="font-semibold text-black">{testimonial.name}</p>
                                 <p>{testimonial.role}</p>
