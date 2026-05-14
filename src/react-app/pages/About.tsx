@@ -10,7 +10,7 @@ const team = [
 
 const timeline = [
 { year: "2024", label: "Founded 03 August 2024 by Vershab Jangid" },
-{ year: "2025", label: "Expanded into mobile and broadcast" },
+{ year: "2025", label: "Expanded into mobile and media" },
 { year: "2026", label: "Served clients across seven sectors" },
 ];
 
@@ -51,7 +51,7 @@ return (
 <div className="space-y-4">
 <p className="text-sm uppercase tracking-[0.4em] text-black font-semibold">About Petabyte</p>
 <h1 className="text-5xl font-black text-black">We help businesses build bold digital brands with intelligent solutions.</h1>
-<p className="max-w-3xl text-gray-700 leading-8">Petabyte Innovations is a digital agency founded on 03 August 2024 by founder Vershab Jangid as a sole proprietorship. We combine strategy, design, and engineering to build premium web experiences, applications, creative digital content, and broadcast production.</p>
+<p className="max-w-3xl text-gray-700 leading-8">Petabyte Innovations is a digital agency founded on 03 August 2024 by founder Vershab Jangid as a sole proprietorship. We combine strategy, design, and engineering to build premium web experiences, applications, creative digital content, and media production.</p>
 <div className="mt-8 flex flex-wrap gap-4">
 <Button variant="primary" onClick={() => window.location.assign("/contact")}>Start a Project</Button>
 <Button variant="secondary" onClick={() => window.location.assign("/portfolio")}>View Work</Button>

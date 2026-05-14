@@ -1,0 +1,60 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="lineGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="48" fill="url(#bg)" />
+  <g opacity="0.35">
+    <circle cx="920" cy="160" r="100" fill="#38bdf8" />
+    <circle cx="220" cy="660" r="108" fill="#22c55e" />
+    <circle cx="960" cy="620" r="66" fill="#fb7185" />
+  </g>
+  <g stroke="url(#lineGlow)" stroke-width="14" stroke-linecap="round" opacity="0.9">
+    <path d="M160 180H360C420 180 440 220 440 280V500C440 560 420 600 360 600H160" />
+    <path d="M760 120H940C980 120 1000 160 1000 200V300" />
+    <path d="M760 680H1040" />
+  </g>
+  <g stroke="#38bdf8" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M320 200H420" />
+    <path d="M320 240H420" />
+    <path d="M320 280H420" />
+    <path d="M320 320H420" />
+    <path d="M320 360H420" />
+    <path d="M740 160H840" />
+    <path d="M740 200H840" />
+    <path d="M740 240H840" />
+    <path d="M740 280H840" />
+  </g>
+  <g stroke="#fff" stroke-width="12" stroke-linecap="round" opacity="0.85">
+    <path d="M590 280V440" />
+    <path d="M590 360H760" />
+    <path d="M760 360C780 360 780 330 800 330C820 330 820 360 840 360" />
+  </g>
+  <rect x="170" y="220" width="216" height="216" rx="28" fill="#0e1726" stroke="#38bdf8" stroke-width="12" opacity="0.85" />
+  <rect x="746" y="134" width="152" height="152" rx="22" fill="#0e1726" stroke="#8b5cf6" stroke-width="10" opacity="0.88" />
+  <rect x="740" y="506" width="220" height="160" rx="32" fill="#0e1726" stroke="#22c55e" stroke-width="10" opacity="0.88" />
+  <g stroke="#38bdf8" stroke-width="8" stroke-linecap="round" opacity="0.95">
+    <path d="M424 318H476" />
+    <path d="M424 358H476" />
+    <path d="M424 398H476" />
+    <path d="M476 318V398" />
+  </g>
+  <circle cx="290" cy="290" r="10" fill="#38bdf8" />
+  <circle cx="338" cy="374" r="10" fill="#38bdf8" />
+  <circle cx="398" cy="252" r="10" fill="#8b5cf6" />
+  <circle cx="830" cy="612" r="10" fill="#22c55e" />
+  <circle cx="955" cy="170" r="10" fill="#38bdf8" />
+  <circle cx="960" cy="232" r="10" fill="#8b5cf6" />
+  <circle cx="756" cy="540" r="10" fill="#22c55e" />
+  <circle cx="1020" cy="620" r="8" fill="#ffffff" />
+  <circle cx="700" cy="260" r="8" fill="#ffffff" />
+  <circle cx="520" cy="580" r="8" fill="#ffffff" />
+  <text x="580" y="120" fill="#ffffff" font-family="Inter, sans-serif" font-size="56" font-weight="700">Tech</text>
+  <text x="580" y="190" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="32" font-weight="600">Innovation in motion</text>
+</svg>

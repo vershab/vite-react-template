@@ -13,10 +13,7 @@ function Footer() {
 				<div className="space-y-4">
 				<p className="text-sm uppercase tracking-[0.35em] text-black font-semibold">Petabyte Innovations</p>
 				<h3 className="text-2xl font-bold text-black">Premium digital products for modern brands.</h3>
-				<p className="text-gray-600 leading-7">A high-end agency experience with expert websites, apps, design, and broadcast production.</p>
-				</div>
-
-				<div className="space-y-4">
+			<p className="text-gray-600 leading-7">A high-end agency experience with expert websites, apps, design, and media production.</p>
 				<p className="text-sm uppercase tracking-[0.35em] text-gray-600 font-semibold">Quick Links</p>
 				<nav className="flex flex-col gap-3 text-sm text-gray-600">
 						<Link to="/services" className="transition hover:text-black">Services</Link>

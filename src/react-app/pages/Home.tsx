@@ -131,6 +131,7 @@ function Home() {
                     </div>
 
                     <div className="relative flex items-center justify-center h-[520px] max-h-[75vh] overflow-hidden rounded-[2.5rem] border border-gray-300 bg-white/90 p-10 shadow-2xl shadow-gray-300/40 backdrop-blur-xl">
+                        <img src="/tech-banner.svg" alt="Technology banner illustration" className="absolute inset-0 h-full w-full object-cover opacity-30" />
                         <div className="absolute inset-0 rounded-[2.5rem] bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.12),_transparent_40%),radial-gradient(circle_at_bottom_right,_rgba(168,85,247,0.12),_transparent_35%)]" />
                         <div className="absolute -left-16 top-8 h-28 w-28 rounded-full border border-gray-400/20 bg-gray-500/10 blur-2xl animate-float" />
                         <div className="absolute right-8 bottom-12 h-24 w-24 rounded-full bg-gray-500/10 blur-2xl animate-float" />
@@ -168,7 +169,7 @@ function Home() {
                 <div className="rounded-[2.5rem] border border-gray-300 bg-white/90 p-10 shadow-2xl shadow-gray-300/40 backdrop-blur-xl">
                     <p className="text-sm uppercase tracking-[0.35em] text-black font-semibold">About us</p>
                     <h2 className="mt-4 text-4xl font-black text-black">We make digital products feel fresh, fast, and unforgettable.</h2>
-                    <p className="mt-6 text-gray-700 leading-8">Petabyte Innovations is a premium digital agency in Jodhpur specializing in websites, applications, design, and live broadcasting. We blend creative direction with technical precision to deliver polished experiences at scale.</p>
+                    <p className="mt-6 text-gray-700 leading-8">Petabyte Innovations is a premium digital agency in Jodhpur specializing in websites, applications, and design. We blend creative direction with technical precision to deliver polished experiences at scale.</p>
                     <div className="mt-8 flex flex-wrap gap-4">
                         <Button variant="secondary" onClick={() => navigate("/about")}>Learn More</Button>
                         <Button variant="ghost" onClick={() => navigate("/contact")}>Talk to Us</Button>
@@ -208,12 +209,12 @@ function Home() {
                 <div className="space-y-4 text-center">
                     <p className="text-sm uppercase tracking-[0.35em] text-black font-semibold">Portfolio</p>
                     <h2 className="text-4xl font-black text-black">Selected digital projects.</h2>
-                    <p className="mx-auto max-w-3xl text-gray-600 leading-8">A glimpse at our most ambitious website, app, and broadcast builds.</p>
+                    <p className="mx-auto max-w-3xl text-gray-600 leading-8">A glimpse at our most ambitious website, app, and media builds.</p>
                 </div>
 
                 <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
                     {[
-                        { title: "Pulse Media Hub", category: "Broadcasting" },
+                        { title: "Pulse Media Hub", category: "Digital Media" },
                         { title: "Vertex Mobile Suite", category: "Mobile App" },
                         { title: "Refine Studio", category: "Brand Identity" },
                     ].map((project) => (

@@ -28,12 +28,6 @@ const services = [
 		icon: "🎬",
 		benefits: ["Narrative editing", "Color grading", "Audio refinement"],
 	},
-	{
-		title: "Live Broadcasting",
-		description: "End-to-end production for streaming, webinars, and live events.",
-		icon: "📡",
-		benefits: ["Stable delivery", "Multi-channel streaming", "Engagement analytics"],
-	},
 ];
 
 function Services() {
@@ -66,7 +60,7 @@ function Services() {
 			<div className="rounded-[2.5rem] border border-gray-300 bg-white/95 p-10 shadow-2xl shadow-gray-300/40 backdrop-blur-xl">
 				<p className="text-sm uppercase tracking-[0.35em] text-black font-semibold">Our services</p>
 				<h1 className="mt-4 text-5xl font-black text-black">Solutions for brands that want a stronger digital impact.</h1>
-				<p className="mt-5 max-w-3xl text-gray-600 leading-8">From elegant websites and apps to creative design, video, and live broadcast production, every service is designed to feel premium, polished, and future-ready.</p>
+				<p className="mt-5 max-w-3xl text-gray-600 leading-8">From elegant websites and apps to creative design and video production, every service is designed to feel premium, polished, and future-ready.</p>
 			</div>
 
 			<div className="grid gap-8 xl:grid-cols-3">
